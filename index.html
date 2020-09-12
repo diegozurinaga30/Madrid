@@ -90,9 +90,6 @@
                         <td colspan="2">' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['RelPath'] !== null ? autolinker.link(feature.properties['RelPath'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <td colspan="2"><img src="'+ feature.properties['RelPath'] +'"width="450" height="375"></td>\
                     </tr>\
                     <tr>\
@@ -142,9 +139,6 @@
             var popupContent = '<table>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Name'] !== null ? autolinker.link(feature.properties['Name'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['RelPath'] !== null ? autolinker.link(feature.properties['RelPath'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2"><img src="'+ feature.properties['RelPath'] +'"width="450" height="375"></td>\
